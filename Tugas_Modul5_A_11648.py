@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 # Update this path to the correct model file format
-model_path = r'D:\ATMAJAYA\Semester5\PMDPL\Tensorflow_A_11648\best_model.h5'  # Ensure this is correct
+model_path = r'best_model.h5'  # Ensure this is correct
 
 if os.path.exists(model_path):
     try:
